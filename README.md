@@ -17,52 +17,56 @@ Based on migrations-flexible(https://github.com/ferpetrelli/kohana-flexible-migr
 * php index.php generate:migration --name=migration_name
 
 --db - name of database
+
     - 'database_name' is name of database from database config.
+
 --step - amount of migrations to be running
+
     - 'all' - word, that mean 'run all migrations'
+
 --name - name for new migration
 
 ## Migration functions
 
 All possible methods are:
 
-up     - migrate
-down   - rollback
-cahnge - migrate/rollback if possible
+* up     - migrate
+* down   - rollback
+* cahnge - migrate/rollback if possible
 
 All possible functions are:
 
-create_table
-drop_table
-rename_table
+* create_table
+* drop_table
+* rename_table
 
-add_column
-rename_column
-change_column(not work!!!)
-remove_column
+* add_column
+* rename_column
+* change_column(not work!!!)
+* remove_column
 
-add_index
-remove_index
+* add_index
+* remove_index
 
-belongs_to(not work!!!)
-has_one(not work!!!)
-has_one_trough(not work!!!)
-has_many_trough(not work!!!)
-has_many(not work!!!)
+* belongs_to(not work!!!)
+* has_one(not work!!!)
+* has_one_trough(not work!!!)
+* has_many_trough(not work!!!)
+* has_many(not work!!!)
 
-run_query
+* run_query
 
 Possible DB columns datatypes are
 
-binary
-boolean
-date
-datetime
-decimal
-float
-integer
-primary_key
-string
-text
-time
-timestamp
+* binary
+* boolean
+* date
+* datetime
+* decimal
+* float
+* integer
+* primary_key
+* string
+* text
+* time
+* timestamp
